@@ -1,0 +1,43 @@
+### Add stuff to ignore here ###
+
+#Like Manny's face
+
+### Gradle ###
+.gradle
+/build/
+*/build/
+**/build/
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle/wrapper/gradle-wrapper.jar
+
+# Java and stuff #
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### Intellij IDE ###
+.idea
+*.iws
+*.iml
+*.ipr
+**/out/*
+
+## Ignore local log file
+*.log
+
+
+# Generated source code
+**/generated
+.tmp
+/build
+/report
+npm-debug.log
+.material-cache
+*.swp
+classes
+*src/main/resources/version.json
+
+# cache files
+retrofit-cache
