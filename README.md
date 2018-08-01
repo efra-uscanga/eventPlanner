@@ -36,3 +36,4 @@ Efra
 -Finish sketch for nested structure
 -Figure out how you're creating issues
 -Finalize db layout
+-Make a gradle wrapper that can run the project
